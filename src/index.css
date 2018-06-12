@@ -1,0 +1,23 @@
+:root {
+  --font-main: Helvetica, sans-serif;
+  --bg-color: #5493E7;
+  --font-color: #FFF;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-main);
+  font-size: 16px;
+  background-color: var(--bg-color);
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

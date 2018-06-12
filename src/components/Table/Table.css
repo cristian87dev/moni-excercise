@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0.25rem 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.title {
+  margin: 0;
+  padding: 0.25rem 0;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    padding: 0;
+    text-align: center;
+  }
+}

@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="app-layout"
+>
+  <header
+    className="header"
+  >
+    <h1
+      className="title"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="Moni Logo"
+          src="moni-logo.svg"
+        />
+      </a>
+    </h1>
+    <nav
+      className="nav-menu"
+    >
+      <ul>
+        <li
+          className="nav-item"
+        >
+          <a
+            className="link-item"
+            href="/pedi-tu-prestamo"
+            onClick={[Function]}
+          >
+            Pedí tu Prestamo
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            className="link-item"
+            href="/user-admin"
+            onClick={[Function]}
+          >
+            User Admin
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main
+    className="main"
+  >
+    <h1>
+      Dashboard
+    </h1>
+  </main>
+  <footer
+    className="footer"
+  >
+    <p
+      className="legend"
+    >
+      Cristian Perrone for Moni™
+    </p>
+  </footer>
+</div>
+`;

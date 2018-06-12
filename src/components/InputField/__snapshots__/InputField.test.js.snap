@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Basic-InputField renders without crashing 1`] = `
+<div
+  className="input-field"
+>
+  <input
+    autoComplete="off"
+    className="input-value"
+    id="test"
+    name="test"
+    onChange={[Function]}
+    placeholder="test"
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`Select-InputField renders without crashing 1`] = `
+<div
+  className="input-field"
+>
+  <select
+    autoComplete="off"
+    className="input-value"
+    id="test"
+    name="test"
+    onChange={[Function]}
+    placeholder="test"
+    value=""
+  >
+    <option
+      value="value"
+    />
+  </select>
+</div>
+`;

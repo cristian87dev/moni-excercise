@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders without crashing 1`] = `
+<button
+  className="button basic"
+  onClick={[Function]}
+  type=""
+/>
+`;
+
+exports[`SubmitBtn renders without crashing 1`] = `
+<button
+  className="button submit"
+  type="submit"
+/>
+`;

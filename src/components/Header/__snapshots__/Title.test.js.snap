@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderTitle renders without crashing 1`] = `
+<h1
+  className="title"
+>
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    <img
+      alt="Moni Logo"
+      src="moni-logo.svg"
+    />
+  </a>
+</h1>
+`;

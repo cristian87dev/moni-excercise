@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav renders without crashing 1`] = `
+<nav
+  className="nav-menu"
+>
+  <ul>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="link-item"
+        href="/pedi-tu-prestamo"
+        onClick={[Function]}
+      >
+        Pedí tu Prestamo
+      </a>
+    </li>
+    <li
+      className="nav-item"
+    >
+      <a
+        className="link-item"
+        href="/user-admin"
+        onClick={[Function]}
+      >
+        User Admin
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

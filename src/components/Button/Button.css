@@ -1,0 +1,23 @@
+.button {
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  color: var(--font-color);
+
+  &.submit {
+    border: 1px solid #78c329;
+    background-color: rgb(115, 181, 45);
+    transition: background-color 250ms ease;
+
+    &:hover {
+      background-color: #78c329;
+    }
+
+    &:active {
+      background-color: rgb(115, 181, 45);
+    }
+  }
+}

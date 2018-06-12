@@ -1,0 +1,31 @@
+.prestamo-route {
+
+  @media (min-width: 1440px) {
+    margin: 0 auto;
+    width: 960px;
+  }
+
+  .fields-group {
+    margin-bottom: 2rem;
+
+    @media (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .input-field {
+      width: 100%;
+
+      @media (min-width: 768px) {
+        width: 50%;
+      }
+    }
+  }
+
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1rem;
+    margin: 1rem;
+  }
+}
