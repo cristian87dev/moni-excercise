@@ -1,6 +1,6 @@
 # Moni Exercise
 
-- Based on Facebook© Create React App©
+- Based on Facebook® Create React App
 
 ## To start
 
